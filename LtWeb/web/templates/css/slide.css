@@ -1,0 +1,46 @@
+.menu .mybar{
+	background: #000b26;
+}
+
+.menu ul li>a{
+	color: #fff;
+	text-transform: uppercase; 
+
+}
+
+.menu ul li{
+	position: relative;
+}
+.menu ul li > .submenu div{
+	width: 400px;
+}
+
+.menu ul li > .submenu{
+ 	display: none;
+ 	background: white;
+	position: absolute;
+	z-index:3;
+}
+
+.menu ul li > .submenu a{
+	text-transform: none;
+	text-decoration: none;
+	color:#999;
+}
+
+.menu ul li a:hover{
+	color: black;
+}
+
+.menu ul li:hover .submenu{
+	display: block;
+}
+
+.mybar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.mybanner {
+	width: 	100%;
+}

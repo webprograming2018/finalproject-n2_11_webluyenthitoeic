@@ -1,0 +1,63 @@
+.main{
+	padding-top: 32px;
+}
+
+.main a{
+	color: black;
+}
+
+.main .myList ul{
+	list-style-type: upper-roman;
+}
+.main .myList-header{
+	background: #4a86b8;
+	color: white;
+    border-radius: 0
+    
+}
+
+.main .myList {
+	border: 1px solid #4a86b8;
+    border-radius: 0
+}
+
+.main .myList ul li{
+	border: 0;
+	padding: 5px;
+}
+
+
+.main .block-image img:hover{
+	opacity: 0.8
+}
+.block-image {
+    /*float: left;*/
+    position: relative;
+    margin-right: 20px;
+}
+.postags {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+}
+.postags a {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 19px;
+    display: inline-block;
+    padding: 0 6px;
+    background: #1194F6;
+    color: #fff;
+    margin: 0;
+}
+.main .block-image .avatar{
+	float: left;
+}
+.main .block-image img{
+	width: 300px;
+}
+a.after-link, a.previours-link{
+    color: blue;
+    font-size: 12px;
+}

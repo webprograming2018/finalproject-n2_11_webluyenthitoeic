@@ -1,0 +1,21 @@
+#style-switcher {
+    position: fixed;
+    top: 140px;
+    z-index: 1111;
+    right: 0px;
+}
+#style-switcher-panel {
+    max-height: 500px;
+    background: #fafafa;
+    border: solid 2px #4a86b8;
+}
+#style-switcher-panel {
+    background-color: #fff;
+    box-shadow: 0 0 10px #4a86b8;
+    padding: 0px;
+    position: relative;
+    width: 300px;
+    font-size: 13px;
+    z-index: 1;
+    text-align: left;
+}

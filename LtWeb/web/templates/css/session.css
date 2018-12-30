@@ -1,0 +1,24 @@
+.sub_category {
+    cursor: pointer;
+    padding-left: 20px;
+}
+.sub-title{
+	font-weight: bold;
+}
+.title{
+    color:white;
+    padding-bottom: 5px;
+}
+table{
+	color:black;
+	border: 1px solid #4a86b8;
+}
+th{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.main{
+	/*background: url("../images/bg.jpg")  no-repeat;*/
+	/*background: url("../images/background-session.gif")  no-repeat;*/
+}
